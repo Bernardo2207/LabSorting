@@ -8,11 +8,12 @@ public static void main(String[] args){
 	
      print(arr);
 	
+     //Sort in increasing order
 	IntegerComparator1 cmp= new IntegerComparator1();
 	sorter.sort(arr, cmp);
 	
 	print(arr);
-	
+	//Sort in decreasing order.
 	IntegerComparator2 cmp2= new IntegerComparator2();
 	sorter.sort(arr, cmp2);
 	
